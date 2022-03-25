@@ -11,11 +11,9 @@ The spherical coordinate system and head transverse planes for specifying the lo
 
 ![Fig_01](/images/Fig_01.png)
 
+Fig. 1. Illustrations of (a) a spherical coordinate system and (b) head transverse planes.
 
 
-is defined as follow:
-H_(L,R) (θ,ϕ,f,s)=(P_(L,R) (r,θ,ϕ,f,s))/(P_0 (r,f) ),	(1)
-where P_(L,R) is the complex-valued sound pressure in freque
 
 
 
