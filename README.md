@@ -1,10 +1,17 @@
 # HRTF Database of HATS from KAIST
-Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, Yong-Hwa Park
+### Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, Yong-Hwa Park
 
+Center for Noise and Vibration Control, Department of Mechanical Engineering  
 Korea Advanced Institute of Science and Technology (KAIST)
 
 
-As 
+The spherical coordinate system and head transverse planes for specifying the location of a sound source are shown in the figure below.
+The origin of the coordinate system is the center of the head between the entrances to the two ear canals.
+From the origin, the x, y, and z-axes point to the right ear, front, and top of the head, respectively.
+The horizontal, median, and lateral planes are defined by these three axes.
+The position of a sound source is defined in the spherical coordinate system as (r, θ, ϕ).
+The azimuth θ is the angle between the y-axis and the horizontal projection of the position vector, defined in −180° < θ ≤ +180°, where −90°, 0°, +90°, and +180° indicate the left, front, right, and backward directions respectively in the horizontal plane.
+The elevation ϕ is the angle between the horizontal plane and the position vector of the sound source, defined in −90° ≤ ϕ ≤ +90°, where −90°, 0°, and +90° represent the bottom, front and top directions respectively in the median plane.
 
 
 
