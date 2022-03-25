@@ -13,6 +13,9 @@ The spherical coordinate system and head transverse planes for specifying the lo
 
 
 
+is defined as follow:
+H_(L,R) (θ,ϕ,f,s)=(P_(L,R) (r,θ,ϕ,f,s))/(P_0 (r,f) ),	(1)
+where P_(L,R) is the complex-valued sound pressure in freque
 
 
 
