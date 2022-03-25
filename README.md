@@ -1,7 +1,7 @@
 # HRTF Database of HATS from KAIST
 #### Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, Yong-Hwa Park
 
-#### Center for Noise and Vibration Control, Department of Mechanical Engineering  
+#### Center for Noise and Vibration Control, Department of Mechanical Engineering
 #### Korea Advanced Institute of Science and Technology (KAIST)
 
 
