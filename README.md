@@ -1,15 +1,18 @@
 # HRTF Database of HATS from KAIST
 Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, Yong-Hwa Park
 
-As the baseline method for the [SELD task](https://www.aane.in/research/computational-audio-scene-analysis-casa/sound-event-localization-detection-and-tracking), we use the SELDnet method studied in the following papers, with  Activity-Coupled Cartesian Direction of Arrival (ACCDOA) representation as the output format. If you are using this baseline method or the datasets in any format, then please consider citing the following two papers. If you want to read more about [generic approaches to SELD then check here](https://www.aane.in/research/computational-audio-scene-analysis-casa/sound-event-localization-detection-and-tracking).
+Center for Noise and Vibration Control, Department of Mechanical Engineering
+Korea Advanced Institute of Science and Technology (KAIST)
 
-1.  [Archontis Politis, Sharath Adavanne, Daniel Krause, Antoine Deleforge, Prerak Srivastava, and Tuomas Virtanen. "A dataset of dynamic reverberant sound scenes with directional interferers for sound event localization and detection", submitted to DCASE 2021](https://arxiv.org/pdf/2106.06999.pdf)
 
-2.  [Sharath Adavanne, Archontis Politis, Joonas Nikunen and Tuomas Virtanen, "Sound event localization and detection of overlapping sources using convolutional recurrent neural network" in IEEE Journal of Selected Topics in Signal Processing (JSTSP 2018)](https://arxiv.org/pdf/1807.00129.pdf)
+As 
 
-2. [Kazuki Shimada, Yuichiro Koyama, Naoya Takahashi, Shusuke Takahashi, and Yuki Mitsufuji, "ACCDOA: Activity-Coupled Cartesian Direction of Arrival Representation for Sound Event Localization and Detection" in the The international Conference on Acoustics, Speech, & Signal Processing (ICASSP 2021)](https://arxiv.org/pdf/2010.15306.pdf)
 
-NOTE: The baseline only supports detection of one instance of a sound class in a given time frame. However, the training data can consist of multiple instances of the same sound class in a given time frame. If participants are planning to build an SELD system that can detect such multiple instances of the same class, then you will have to modify this code accordingly. On the other hand, the provided metric code - `SELD_evaluation_metrics.py` and the class wrapper for it `cls_compute_seld_results.py` both support multiple instances of the same class. So you can continue to use them for your multi-instance SELD system.
+
+
+
+
+
 
 ## BASELINE METHOD
 
