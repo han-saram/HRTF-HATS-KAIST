@@ -1,11 +1,6 @@
-# HRTF-HATS-KAIST by G.T. Lee
-HRTF database of HATS from KAIST
+# HRTF Database of HATS from KAIST
+Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, Yong-Hwa Park
 
-
-# DCASE 2021: Sound Event Localization and Detection with Directional Interference
-
-[Please visit the official webpage of the DCASE 2021 Challenge for details missing in this repo](http://dcase.community/challenge2021/task-sound-event-localization-and-detection).
-   
 As the baseline method for the [SELD task](https://www.aane.in/research/computational-audio-scene-analysis-casa/sound-event-localization-detection-and-tracking), we use the SELDnet method studied in the following papers, with  Activity-Coupled Cartesian Direction of Arrival (ACCDOA) representation as the output format. If you are using this baseline method or the datasets in any format, then please consider citing the following two papers. If you want to read more about [generic approaches to SELD then check here](https://www.aane.in/research/computational-audio-scene-analysis-casa/sound-event-localization-detection-and-tracking).
 
 1.  [Archontis Politis, Sharath Adavanne, Daniel Krause, Antoine Deleforge, Prerak Srivastava, and Tuomas Virtanen. "A dataset of dynamic reverberant sound scenes with directional interferers for sound event localization and detection", submitted to DCASE 2021](https://arxiv.org/pdf/2106.06999.pdf)
