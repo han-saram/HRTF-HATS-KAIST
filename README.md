@@ -1,4 +1,4 @@
-# HRTF-HATS-KAIST
+# HRTF-HATS-KAIST by G.T. Lee
 HRTF database of HATS from KAIST
 
 
