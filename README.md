@@ -100,20 +100,6 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 
-
-There are in total four metrics that we employ in this challenge.
-The first two metrics are more focused on the detection part, also referred as the location-aware detection, corresponding to the error rate (ER<sub>20°</sub>) and F-score (F<sub>20°</sub>) in one-second non-overlapping segments. We consider the prediction to be correct if the prediction and reference class are the same, and the distance between them is below 20&deg;.
-The next two metrics are more focused on the localization part, also referred as the class-aware localization, corresponding to the localization error (LE<sub>CD</sub>) in degrees, and a localization Recall (LR<sub>CD</sub>) in one-second non-overlapping segments, where the subscript refers to _classification-dependent_. Unlike the location-aware detection, we do not use any distance threshold, but estimate the distance between the correct prediction and reference.
-
-The evaluation metric scores for the test split of the development dataset is given below
-
-| Dataset | ER<sub>20°</sub> | F<sub>20°</sub> | LE<sub>CD</sub> | LR<sub>CD</sub> |
-| ----| --- | --- | --- | --- |
-| Ambisonic (FOA) | 0.69 | 33.9 % | 24.1&deg; | 43.9 % |
-| Microphone Array (MIC) | 0.74 | 24.7 % | 30.9&deg; | 38.2 % |
-
-**Note:** The reported baseline system performance is not exactly reproducible due to varying setups. However, you should be able to obtain very similar results.
-
 ## Submission
 
 * Before submission, make sure your SELD results look good by visualizing the results using `visualize_SELD_output.py` script
