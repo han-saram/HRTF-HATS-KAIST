@@ -67,10 +67,19 @@ Fig. 6. HRTFs at θ=45˚, H<sub>L,R</sub> (45,ϕ,f): (a1) left HRIRs; (a2) right
 
 Fig. 7. HRTFs at θ=90˚, H<sub>L,R</sub> (90,ϕ,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
 
+Figs. 8–10 show left and right HRTF pairs as impulse responses, magnitude responses in dB scale, and phase responses in radians for the entire azimuth range when the elevation angles are 0°, 60°, and 90°, respectively. 
 
+![Fig08](/images/Fig08.png)
 
+Fig. 8. HRTFs at ϕ=0˚, H<sub>L,R</sub> (θ,0,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTS.
 
+![Fig09](/images/Fig09.png)
 
+Fig. 9. HRTFs at ϕ=60˚, H<sub>L,R</sub> (θ,60,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
+
+![Fig10](/images/Fig10.png)
+
+Fig. 10. HRTFs at ϕ=90˚, H<sub>L,R</sub> (θ,90,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
 
 
 
