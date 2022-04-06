@@ -7,6 +7,27 @@ Korea Advanced Institute of Science and Technology (KAIST)
 
 ## What is HRTF?
 
+The spherical coordinate system and head transverse planes for specifying the location of a sound source are shown in Fig. 1. In Fig. 1(a), the origin of the coordinate system is the center of the head, between the entrances to the two ear canals. From the origin, the x, y, and z-axes point to the right ear, front, and top of the head, respectively. In Fig. 1(b), the horizontal, median, and lateral planes are defined by these three axes. The position of a sound source is defined in the spherical coordinate system as (r, θ, ϕ). The azimuth θ is the angle between the y-axis and the horizontal projection of the position vector, defined as −180° < θ ≤ +180°, where −90°, 0°, +90°, and +180° indicate the left, front, right, and backward directions, respectively, on the horizontal plane. The elevation ϕ is the angle between the horizontal plane and the position vector of the sound source, defined as −90° ≤ ϕ ≤ +90°, where −90°, 0°, and +90° represent the bottom, front, and top directions, respectively, in the median plane.
+
+![Fig01](/images/Fig01.png)
+
+Fig. 1. Illustrations of (a) spherical coordinate system and (b) head transverse planes.
+
+The sound emitted from a sound source is diffracted and reflected from the torso, head, and pinna, and then reaches both ears as shown in Fig. 2. 
+
+![Fig02](/images/Fig02.png)
+
+Fig. 2. Diagrams of sound transmission from sound source to both ears: (a) top view; (b) side view.
+
+HRTFs are acoustic transfer functions due to the sound transmission process that account for the overall acoustic filtering effect by human anatomy. A far-field HRTF of the left or right ear for a sound source of P_S (r,θ,ϕ) is defined as follows:
+
+![Eq01](/equations/Eq01.png)
+
+
+
+
+
+
 The spherical coordinate system and head transverse planes for specifying the location of a sound source are shown in the figure below. The origin of the coordinate system is the center of the head between the entrances to the two ear canals. From the origin, the x, y, and z-axes point to the right ear, front, and top of the head, respectively. The horizontal, median, and lateral planes are defined by these three axes. The position of a sound source is defined in the spherical coordinate system as (r, θ, ϕ). The azimuth θ is the angle between the y-axis and the horizontal projection of the position vector, defined in −180° < θ ≤ +180°, where −90°, 0°, +90°, and +180° indicate the left, front, right, and backward directions respectively in the horizontal plane. The elevation ϕ is the angle between the horizontal plane and the position vector of the sound source, defined in −90° ≤ ϕ ≤ +90°, where −90°, 0°, and +90° represent the bottom, front and top directions respectively in the median plane. The sound emitted from a sound source is diffracted and reflected from the torso, head, and pinna, and then reaches both ears. HRTFs are the acoustic transfer functions due to the sound transmission process that accounts for the overall acoustic filtering effect by human anatomy.
 
 ![Fig_01](/images/Fig_01.png)
