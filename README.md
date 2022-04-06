@@ -25,14 +25,23 @@ HRTFs are acoustic transfer functions due to the sound transmission process that
 
 where P<sub>L,R</sub> is the complex-valued sound pressure in the frequency domain at the entrance of the left or right ear canal of a subject; P<sub>0</sub> is the complex-valued sound pressure in the frequency domain at the center of the subject’s head in the absence of the subject; the subscripts L and R denote the left and right ears, f refers to frequency, and s refers to a set of parameters related to the dimensions of the subject’s anatomical structures. Although P<sub>L,R</sub> and P<sub>0</sub> are functions of distance r, the effects of r on P<sub>L,R</sub> and P<sub>0</sub> can be regarded as identical under the far-field assumption, so that the effects of r can be canceled out in H<sub>L,R</sub>. Even though Eq. (1) is expressed in terms of ideal sound pressures, when actually measuring HRTFs, the transfer function between the measured sound pressure and the input signal from the measurement system is used. Therefore, it is useful to express HRTFs based on the measured transfer functions. Regarding this point, Eq. (1) can be re-written as follows:
 
+![Eq02](/equations/Eq02.png)
+
+where P ̃<sub>L,R</sub> is the measured sound pressure at the entrance of the left or right ear, P ̃<sub>0</sub> is the measured sound pressure at the head center, and X is the input signal. Both measurement values P ̃<sub>L,R</sub> and P ̃<sub>0</sub> are determined by P<sub>L,R</sub> and P<sub>0</sub>, as well as by H<sub>s</sub> (ϕ,f), which is the transfer function of the measurement system consisting of digital-to-analog converter (DAC), speaker amplifier, speaker module at elevation ϕ in a vertical speaker array, microphone, microphone conditioner, and analog-to-digital converter (ADC). The numerator of Eq. (2) is the BTF, which denotes the transfer function between the measured sound pressure at the left or right ear and the input signal; the denominator is the OTF, which denotes the transfer function between the measured sound pressure at the head center and the input signal. The BTF and OTF are respectively defined as follows:
+
+![Eq03-04](/equations/Eq03-04.png)
+
+In general, when measuring far-field HRTFs, both s and r are constant because the measurement subject is predetermined and the distance of a speaker module from the head center is also fixed for a specific measurement setup. Therefore, based on the BTF and OTF to be measured, the far-field HRTF is defined as follows:
+
+![Eq05](/equations/Eq05.png)
 
 
 
-The spherical coordinate system and head transverse planes for specifying the location of a sound source are shown in the figure below. The origin of the coordinate system is the center of the head between the entrances to the two ear canals. From the origin, the x, y, and z-axes point to the right ear, front, and top of the head, respectively. The horizontal, median, and lateral planes are defined by these three axes. The position of a sound source is defined in the spherical coordinate system as (r, θ, ϕ). The azimuth θ is the angle between the y-axis and the horizontal projection of the position vector, defined in −180° < θ ≤ +180°, where −90°, 0°, +90°, and +180° indicate the left, front, right, and backward directions respectively in the horizontal plane. The elevation ϕ is the angle between the horizontal plane and the position vector of the sound source, defined in −90° ≤ ϕ ≤ +90°, where −90°, 0°, and +90° represent the bottom, front and top directions respectively in the median plane. The sound emitted from a sound source is diffracted and reflected from the torso, head, and pinna, and then reaches both ears. HRTFs are the acoustic transfer functions due to the sound transmission process that accounts for the overall acoustic filtering effect by human anatomy.
 
-![Fig_01](/images/Fig_01.png)
 
-Fig. 1. Illustrations of (a) a spherical coordinate system and (b) head transverse planes.
+
+
+
 
 ## HRTF Measurement System
 
