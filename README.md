@@ -23,7 +23,7 @@ HRTFs are acoustic transfer functions due to the sound transmission process that
 
 ![Eq01](/equations/Eq01.png)
 
-
+where P<sub>L,R</sub> is the complex-valued sound pressure in the frequency domain at the entrance of the left or right ear canal of a subject; P<sub>0</sub> is the complex-valued sound pressure in the frequency domain at the center of the subject’s head in the absence of the subject; the subscripts L and R denote the left and right ears, f refers to frequency, and s refers to a set of parameters related to the dimensions of the subject’s anatomical structures. Although P<sub>L,R</sub> and P<sub>0</sub> are functions of distance r, the effects of r on P<sub>L,R</sub> and P<sub>0</sub> can be regarded as identical under the far-field assumption, so that the effects of r can be canceled out in H<sub>L,R</sub>. Even though Eq. (1) is expressed in terms of ideal sound pressures, when actually measuring HRTFs, the transfer function between the measured sound pressure and the input signal from the measurement system is used. Therefore, it is useful to express HRTFs based on the measured transfer functions. Regarding this point, Eq. (1) can be re-written as follows:
 
 
 
