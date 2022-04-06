@@ -19,7 +19,7 @@ The sound emitted from a sound source is diffracted and reflected from the torso
 
 Fig. 2. Diagrams of sound transmission from sound source to both ears: (a) top view; (b) side view.
 
-HRTFs are acoustic transfer functions due to the sound transmission process that account for the overall acoustic filtering effect by human anatomy. A far-field HRTF of the left or right ear for a sound source of P_{S} (r,θ,ϕ) is defined as follows:
+HRTFs are acoustic transfer functions due to the sound transmission process that account for the overall acoustic filtering effect by human anatomy. A far-field HRTF of the left or right ear for a sound source of $$P_{S} (r,θ,ϕ)$$ is defined as follows:
 
 ![Eq01](/equations/Eq01.png)
 
