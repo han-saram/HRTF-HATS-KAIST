@@ -28,6 +28,8 @@ Fig. 3. Block diagram of the HRTF measurement system.
 
 dddddddddddddddddddddddddddddddddddddddddddd
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
 
 In comparison to the SELDnet studied in [1], we have changed the output format to ACCDOA [2] to improve its performance.
  * **ACCDOA output format**: The original SELDnet employed multi-task output, we simplify the architecture by employing the ACCDOA format, which encodes both SED and DOA information in one single output.
