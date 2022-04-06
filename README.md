@@ -47,7 +47,9 @@ As shown in Fig. 3, the raw transfer functions, the BTFs and OTFs, were measured
 
 Fig. 3. Block diagram of HRTF measurement system.
 
+![Fig04](/images/Fig04.png)
 
+Fig. 4. HRTF measurement setup with speaker array and dummy head on rotating turntable in anechoic chamber at KAIST: (a) dummy head positioning; (b) speaker array positioning; (c) installation completed in the anechoic chamber; and (d) floor finished with sound-absorbing material.
 
 
 dddddddddddddddddddddddddddddddddddddddddddd
