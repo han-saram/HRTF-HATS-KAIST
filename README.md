@@ -51,6 +51,31 @@ Fig. 3. Block diagram of HRTF measurement system.
 
 Fig. 4. HRTF measurement setup with speaker array and dummy head on rotating turntable in anechoic chamber at KAIST: (a) dummy head positioning; (b) speaker array positioning; (c) installation completed in the anechoic chamber; and (d) floor finished with sound-absorbing material.
 
+## HRTF Measurement according to Azimuth and Elevation
+
+The time and frequency domain characteristics of the derived HRTFs were presented as contour maps for each major azimuth and elevation angle. Figs. 5–7 show left and right HRTF pairs as impulse responses, magnitude responses in dB scale, and phase responses in radians for the entire elevation range when the azimuth angles are 0°, 45°, and 90°, respectively.
+
+![Fig05](/images/Fig05.png)
+
+Fig. 5. HRTFs at θ=0˚, H<sub>L,R</sub> (0,ϕ,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dddddddddddddddddddddddddddddddddddddddddddd
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
