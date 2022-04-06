@@ -59,13 +59,13 @@ The time and frequency domain characteristics of the derived HRTFs were presente
 
 Fig. 5. HRTFs at θ=0˚, H<sub>L,R</sub> (0,ϕ,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
 
+![Fig06](/images/Fig06.png)
 
+Fig. 6. HRTFs at θ=45˚, H<sub>L,R</sub> (45,ϕ,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
 
+![Fig07](/images/Fig07.png)
 
-
-
-
-
+Fig. 7. HRTFs at θ=90˚, H<sub>L,R</sub> (90,ϕ,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
 
 
 
