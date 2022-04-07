@@ -19,7 +19,7 @@ The sound emitted from a sound source is diffracted and reflected from the torso
 
 Fig. 2. Diagrams of sound transmission from sound source to both ears: (a) top view; (b) side view.
 
-HRTFs are acoustic transfer functions due to the sound transmission process that account for the overall acoustic filtering effect by human anatomy. A far-field HRTF of the left or right ear for a sound source of P<sub>S</sub> (r,θ,ϕ) is defined as follows:
+Head-related transfer functions (HRTFs) are acoustic transfer functions due to the sound transmission process that account for the overall acoustic filtering effect by human anatomy. A far-field HRTF of the left or right ear for a sound source of P<sub>S</sub> (r,θ,ϕ) is defined as follows:
 
 ![Eq01](/equations/Eq01.png)
 
@@ -27,7 +27,7 @@ where P<sub>L,R</sub> is the complex-valued sound pressure in the frequency doma
 
 ![Eq02](/equations/Eq02.png)
 
-where P ̃<sub>L,R</sub> is the measured sound pressure at the entrance of the left or right ear, P ̃<sub>0</sub> is the measured sound pressure at the head center, and X is the input signal. Both measurement values P ̃<sub>L,R</sub> and P ̃<sub>0</sub> are determined by P<sub>L,R</sub> and P<sub>0</sub>, as well as by H<sub>s</sub> (ϕ,f), which is the transfer function of the measurement system consisting of digital-to-analog converter (DAC), speaker amplifier, speaker module at elevation ϕ in a vertical speaker array, microphone, microphone conditioner, and analog-to-digital converter (ADC). The numerator of Eq. (2) is the BTF, which denotes the transfer function between the measured sound pressure at the left or right ear and the input signal; the denominator is the OTF, which denotes the transfer function between the measured sound pressure at the head center and the input signal. The BTF and OTF are respectively defined as follows:
+where P ̃<sub>L,R</sub> is the measured sound pressure at the entrance of the left or right ear, P ̃<sub>0</sub> is the measured sound pressure at the head center, and X is the input signal. Both measurement values P ̃<sub>L,R</sub> and P ̃<sub>0</sub> are determined by P<sub>L,R</sub> and P<sub>0</sub>, as well as by H<sub>s</sub> (ϕ,f), which is the transfer function of the measurement system consisting of digital-to-analog converter (DAC), speaker amplifier, speaker module at elevation ϕ in a vertical speaker array, microphone, microphone conditioner, and analog-to-digital converter (ADC). The numerator of Eq. (2) is the binaural transfer function (BTF), which denotes the transfer function between the measured sound pressure at the left or right ear and the input signal; the denominator is the origin transfer function (OTF), which denotes the transfer function between the measured sound pressure at the head center and the input signal. The BTF and OTF are respectively defined as follows:
 
 ![Eq03-04](/equations/Eq03-04.png)
 
@@ -109,28 +109,4 @@ Also, if you use the presented HRTF database, please cite the paper below.
 
 ## License
 
-Except for the contents in the `metrics` folder that have [MIT License](metrics/LICENSE.md). The rest of the repository is licensed under the [TAU License](LICENSE.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Except for the `dirplot_F.m` script in the `05_Directivity` folder, the rest of the repository is licensed under the [KAIST License](LICENSE.md).
