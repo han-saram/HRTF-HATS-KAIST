@@ -87,17 +87,17 @@ The files to download are BTF and OTF measurement results, source codes for buil
 
 * The `00_Data` folder consists of HRTF database (`HRTF_HATS`), ILD data (`ILD_HATS`), wideband ILD data (`ILD_HATS_full`), ITD data (`ITD_HATS`), spectral cue data (`PN_HATS`), BTF measurements (`TF_HATS`), and OTF measurements (`TF_Ref`).
 
+* The `01_TF_check` folder consists of scripts to visualize the BTF and OTF measurement results.
 
+* The `02_HRTF_gen` folder consists of scripts to generate the HRTF database.
 
+* The `03_HRTF_check` folder consists of scripts to visualize the HRTF database.
 
+* The `04_ITD-ILD` folder consists of scripts to generate and visualize the ITD, ILD, and wideband ILD data.
 
+* The `05_Directivity` folder consists of scripts to visualize horizontal plane directivity (HPD).
 
-
-dddddddddddddddddddddddddddddddddddddddddddd
-zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-
+* The `06_PN` folder consists of scripts to generate and visualize the spectral cue (SC) data.
 
 ## Citation
 
@@ -113,6 +113,17 @@ Also, if you use this HRTF database, please cite the paper below.
 
 
 For more information on the submission file formats [check the website](http://dcase.community/challenge2021/task-sound-event-localization-and-detection)
+
+
+
+
+
+
+dddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+dddddddddddddddddddddddddddddddddddddddddddd
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 
 
