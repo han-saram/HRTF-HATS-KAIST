@@ -85,7 +85,7 @@ Fig. 10. HRTFs at ϕ=90˚, H<sub>L,R</sub> (θ,90,f): (a1) left HRIRs; (a2) righ
 
 The files to download are BTF and OTF measurement results, source codes for building HRTF database, and data files about derived HRTFs and binaural sound localization cues, etc.
 
-* The `00_Data` folder consists of HRTF database 'HRTF_HATS', ILD data 'ILD_HATS', wideband ILD data 'ILD_HATS_full', ITD data 'ITD_HATS', spectral cue data 'PN_HATS', BTF measurements 'TF_HATS', and OTF measurements 'TF_Ref'.
+* The `00_Data` folder consists of HRTF database `HRTF_HATS`, ILD data `ILD_HATS`, wideband ILD data `ILD_HATS_full`, ITD data `ITD_HATS`, spectral cue data `PN_HATS`, BTF measurements `TF_HATS`, and OTF measurements `TF_Ref`.
 
 
 
