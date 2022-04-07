@@ -101,19 +101,13 @@ The files to download are BTF and OTF measurement results, source codes for buil
 
 ## Citation
 
-If you want to know more about the system design, measurement, and post-processing of HRTFs, please refer to the paper below.
+If you want to know more about the system design, measurement, and post-processing of the HRTF database, please refer to the paper below.
 
-Also, if you use this HRTF database, please cite the paper below.
+Also, if you use the presented HRTF database, please cite the paper below.
 
-[Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, and Yong-Hwa Park, "HRTF measurement for accurate sound localization cues", ArXiv Preprint, ArXiv:2203.03166 (2022)](https://arxiv.org/abs/2203.03166)
-
+[Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, and Yong-Hwa Park, “HRTF measurement for accurate sound localization cues”, ArXiv Preprint, ArXiv:2203.03166, 2022.](http://arxiv.org/abs/2203.03166)
 
 [Archontis Politis, Sharath Adavanne, Toni Heittola, and Tuomas Virtanen, "Overview and Evaluation of SELD in DCASE 2019", IEEE/ACM Transactions on Processing (TASLP 2020)](https://arxiv.org/pdf/2009.02792.pdf)
-
-
-
-For more information on the submission file formats [check the website](http://dcase.community/challenge2021/task-sound-event-localization-and-detection)
-
 
 
 
