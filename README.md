@@ -107,22 +107,30 @@ Also, if you use the presented HRTF database, please cite the paper below.
 
 [Gyeong-Tae Lee, Sang-Min Choi, Byeong-Yun Ko, and Yong-Hwa Park, “HRTF measurement for accurate sound localization cues”, ArXiv Preprint, ArXiv:2203.03166, 2022.](http://arxiv.org/abs/2203.03166)
 
-[Archontis Politis, Sharath Adavanne, Toni Heittola, and Tuomas Virtanen, "Overview and Evaluation of SELD in DCASE 2019", IEEE/ACM Transactions on Processing (TASLP 2020)](https://arxiv.org/pdf/2009.02792.pdf)
-
-
-
-
-
-dddddddddddddddddddddddddddddddddddddddddddddddddddd
-
-dddddddddddddddddddddddddddddddddddddddddddd
-zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-
-
-
 ## License
 
 Except for the contents in the `metrics` folder that have [MIT License](metrics/LICENSE.md). The rest of the repository is licensed under the [TAU License](LICENSE.md).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
