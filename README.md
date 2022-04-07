@@ -81,6 +81,24 @@ Fig. 9. HRTFs at ϕ=60˚, H<sub>L,R</sub> (θ,60,f): (a1) left HRIRs; (a2) right
 
 Fig. 10. HRTFs at ϕ=90˚, H<sub>L,R</sub> (θ,90,f): (a1) left HRIRs; (a2) right HRIRs; (b1) magnitude of left HRTFs; (b2) magnitude of right HRTFs; (c1) phase of left HRTFs; and (c2) phase of right HRTFs.
 
+## Description of Folders
+
+The files to download are BTF and OTF measurement results, source codes for building HRTF database, and data files about derived HRTFs and binaural sound localization cues, etc.
+
+* The `00_Data` folder consists of HRTF database (HRTF_HATS), ILD data (ILD_HATS), wideband ILD data (ILD_HATS_full), ITD data (ITD_HATS), spectral cue data (PN_HATS), BTF measurements (TF_HATS), and OTF measurements (TF_Ref).
+
+
+
+
+
+
+
+dddddddddddddddddddddddddddddddddddddddddddd
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+
+
 ## Citation
 
 If you want to know more about the system design, measurement, and post-processing of HRTFs, please refer to the paper below.
@@ -94,18 +112,10 @@ Also, if you use this HRTF database, please cite the paper below.
 
 
 
-
-dddddddddddddddddddddddddddddddddddddddddddd
-zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-
-## Submission
-
-* Before submission, make sure your SELD results look good by visualizing the results using `visualize_SELD_output.py` script
-* Make sure the file-wise output you are submitting is produced at 100 ms hop length. At this hop length a 60 s audio file has 600 frames.
-
 For more information on the submission file formats [check the website](http://dcase.community/challenge2021/task-sound-event-localization-and-detection)
+
+
+
 
 ## License
 
